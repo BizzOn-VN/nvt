@@ -123,3 +123,6 @@ $(' .ui.dropdown')
     // allowAdditions: true
   })
 ;
+$( function() {
+    $( "#date-pk" ).datepicker();
+  } );
