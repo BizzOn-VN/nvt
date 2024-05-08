@@ -25,6 +25,7 @@ jQuery(document).on("ready",function () {
 $('.ui.dropdown')
   .dropdown()
 ;
+$('.ui.checkbox').checkbox();
 $(".dr-down").click(function(){
 	$(".top-header .right-ct .inner .item .menu").removeClass("active");
 	$(this).parent(".item").find(".menu").toggleClass("active");
