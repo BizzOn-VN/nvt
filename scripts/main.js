@@ -270,3 +270,20 @@ function open_popup(){
   }
 }
 open_popup();
+
+
+$(".toggle-password").click(function() {
+
+  $(this).toggleClass("show");
+  var input = $($(this).attr("toggle"));
+  if (input.attr("type") == "password") {
+    input.attr("type", "text");
+  } else {
+    input.attr("type", "password");
+  }
+});
+function set_height_blk_dang_ky(){
+  var height=$(window).height()-$(".page-header").outerHeight();
+  $(".blk-dang-ky .inner").css("min-height",height);
+}
+set_height_blk_dang_ky();
