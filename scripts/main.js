@@ -284,6 +284,21 @@ $(".toggle-password").click(function() {
 });
 function set_height_blk_dang_ky(){
   var height=$(window).height()-$(".page-header").outerHeight();
-  $(".blk-dang-ky .inner").css("min-height",height);
+  $(".blk-dang-ky .inner").css("height",height);
 }
 set_height_blk_dang_ky();
+
+$(window).resize(function(){
+  set_height_blk_dang_ky();
+  if(window.screen.width<992){
+    $(".srl-form").mCustomScrollbar('destroy');
+  }else{
+    $(".srl-form").mCustomScrollbar();
+  }
+});
+if(window.screen.width<992){
+  $(".srl-form").mCustomScrollbar('destroy');
+}else{
+  $(".srl-form").mCustomScrollbar();
+}
+
