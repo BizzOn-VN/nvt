@@ -1,0 +1,299 @@
+/* footer
+ -----------------------------------------------------*/
+.page-footer {
+  padding: 2vw 0 0;
+  background: #F3F3F3;
+}
+@media screen and (max-width: 768px) {
+  .page-footer {
+    padding: 5vw 0 0;
+  }
+}
+
+.top-footer {
+  margin: 0 0 3vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-footer .logo a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-footer .logo a img {
+  width: 10vw;
+}
+.top-footer .logo a span {
+  display: block;
+  color: #212121;
+  font-size: -webkit-calc(2.2vw + 5px);
+  font-size: calc(2.2vw + 5px);
+  font-weight: bold;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  padding-left: 1.3vw;
+}
+.top-footer .get-info {
+  width: 35%;
+}
+.top-footer .get-info .caption {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 1vw;
+}
+.top-footer .get-info form .md-row {
+  position: relative;
+}
+.top-footer .get-info form .input-text {
+  width: 100%;
+  border: none;
+  background: #FFF;
+  border-radius: 0.5em 0 0 0.5em;
+  height: 3vw;
+  padding: 0 6vw 0 1vw;
+}
+.top-footer .get-info form .input-text::-webkit-input-placeholder {
+  color: #ACACAC;
+}
+.top-footer .get-info form .input-text::-moz-placeholder {
+  color: #ACACAC;
+}
+.top-footer .get-info form .input-text:-ms-input-placeholder {
+  color: #ACACAC;
+}
+.top-footer .get-info form .input-text::placeholder {
+  color: #ACACAC;
+}
+.top-footer .get-info form .submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 3vw;
+  width: 6vw;
+  border: none;
+  background: url(../images/footer/bg-submit.png) no-repeat center center;
+  -webkit-background-size: auto 100%;
+          background-size: auto 100%;
+}
+@media screen and (max-width: 768px) {
+  .top-footer {
+    margin: 0 0 5vw;
+    display: block;
+  }
+  .top-footer .logo {
+    display: table;
+    margin: 0 0 3vw 0;
+  }
+  .top-footer .get-info {
+    width: 80%;
+  }
+  .top-footer .get-info form .input-text {
+    height: 6vw;
+    width: 100%;
+  }
+  .top-footer .get-info form .submit {
+    height: 6vw;
+    width: 11vw;
+  }
+}
+
+.meta-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.meta-footer .item .caption {
+  display: block;
+  margin: 0 0 0.7vw;
+}
+.meta-footer .item-1 {
+  width: 22%;
+}
+.meta-footer .item-2 {
+  width: 20%;
+}
+.meta-footer .item-3 {
+  width: 17%;
+}
+.meta-footer .item-4 {
+  width: 15%;
+}
+.meta-footer .item-5 {
+  width: 19%;
+}
+.meta-footer ul li {
+  margin: 0 0 0.7vw;
+}
+.meta-footer ul.info {
+  margin: 0 0 4vw;
+}
+.meta-footer ul.info li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.meta-footer ul.info li a {
+  color: #212121;
+}
+.meta-footer ul.info li .icon {
+  width: 1vw;
+}
+.meta-footer ul.info li .icon img {
+  width: 100%;
+}
+.meta-footer ul.info li .text {
+  width: -webkit-calc(100% - 1vw);
+  width: calc(100% - 1vw);
+  padding-left: 0.7vw;
+}
+.meta-footer .social {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.meta-footer .social li {
+  margin: 0;
+  width: 3vw;
+  padding: 0 0.5vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.meta-footer .social li a {
+  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.meta-footer .social li a img {
+  width: 100%;
+}
+.meta-footer ul.thanh-toan {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 10vw;
+}
+.meta-footer ul.thanh-toan li {
+  width: 48%;
+}
+.meta-footer ul.thanh-toan li a {
+  display: block;
+}
+.meta-footer ul.thanh-toan li a img {
+  width: 100%;
+}
+.meta-footer ul.tai-ung-dung {
+  margin: 0 0 2vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 15vw;
+}
+.meta-footer ul.tai-ung-dung li {
+  width: 45%;
+}
+.meta-footer ul.tai-ung-dung li a {
+  display: block;
+  margin: 0 0 0.7vw;
+}
+.meta-footer ul.tai-ung-dung li a img {
+  width: 100%;
+}
+.meta-footer .complete {
+  width: 15vw;
+}
+@media screen and (max-width: 768px) {
+  .meta-footer .item-1 {
+    width: 32%;
+  }
+  .meta-footer .item-2 {
+    width: 32%;
+  }
+  .meta-footer .item-3 {
+    width: 32%;
+  }
+  .meta-footer .item-4 {
+    width: 50%;
+  }
+  .meta-footer .item-5 {
+    width: 50%;
+  }
+  .meta-footer ul.thanh-toan {
+    width: 26vw;
+  }
+  .meta-footer ul.tai-ung-dung {
+    width: 35vw;
+  }
+  .meta-footer .complete {
+    width: 35vw;
+  }
+  .meta-footer .item {
+    margin: 0 0 3vw;
+  }
+  .meta-footer .item .caption {
+    font-weight: 700;
+    font-size: -webkit-calc(1.8vw + 4px);
+    font-size: calc(1.8vw + 4px);
+  }
+  .meta-footer .social li {
+    width: 6vw;
+    padding: 0 0.9vw;
+  }
+}
+
+.coppy-right {
+  padding: 1vw 0;
+  border-top: 1px solid #F3F3F3;
+  text-align: center;
+}

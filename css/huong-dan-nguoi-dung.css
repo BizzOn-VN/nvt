@@ -1,0 +1,127 @@
+/* huong-dan-nguoi-dung
+ -----------------------------------------------------*/
+.tab-tutorial {
+  padding: 0 0 2em;
+}
+.tab-tutorial ul.nav-tabs {
+  border: none;
+  width: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tab-tutorial ul.nav-tabs li {
+  border: none;
+  padding: 0 0.5em;
+}
+.tab-tutorial ul.nav-tabs li a {
+  border: 1px solid #AB0302;
+  background: #FFF;
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  border-radius: 1.5em;
+  color: #AB0302;
+}
+.tab-tutorial ul.nav-tabs li a:hover {
+  border: 1px solid #AB0302;
+  color: #FEB304;
+}
+.tab-tutorial ul.nav-tabs li a.active {
+  border: 1px solid #AB0302;
+  border-color: transparent;
+  background: -webkit-linear-gradient(270deg, #AB0302, #7F0100);
+  background: -o-linear-gradient(270deg, #AB0302, #7F0100);
+  background: linear-gradient(180deg, #AB0302, #7F0100);
+  color: #FFF;
+}
+.tab-tutorial ul.nav-tabs li a.active:hover {
+  color: #FEB304;
+}
+.tab-tutorial .news-expand .content .item {
+  padding: 0 0 1.5em;
+  background: #FFF;
+  width: 32%;
+  margin: 0 0 3em;
+}
+.tab-tutorial .news-expand .content .item .text {
+  padding: 0 1.5em;
+}
+.tab-tutorial .news-expand .content .item .text .info h3 {
+  font-size: -webkit-calc(0.9vw + 4px);
+  font-size: calc(0.9vw + 4px);
+}
+@media screen and (max-width: 768px) {
+  .tab-tutorial .news-expand .content .item {
+    padding: 0 0 1.2em;
+    width: 48%;
+  }
+  .tab-tutorial .news-expand .content .item .text {
+    font-family: "SFProDisplay-Semibold";
+  }
+  .tab-tutorial .news-expand .content .item .text .info h3 {
+    font-size: -webkit-calc(1.5vw + 4px);
+    font-size: calc(1.5vw + 4px);
+    font-family: "SFProDisplay-Semibold";
+  }
+}
+
+.blk-videos {
+  padding: 0 0 2em;
+}
+.blk-videos .inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blk-videos .inner .item {
+  margin: 0 0 1.5em;
+  width: 32%;
+}
+.blk-videos .inner .item .thumb {
+  margin: 0 0 1em;
+  width: 100%;
+}
+.blk-videos .inner .item .thumb video {
+  width: 100%;
+}
+.blk-videos .inner .item .text {
+  font-family: "SFProDisplay-Semibold";
+  text-align: center;
+}
+.blk-videos .inner .item .text h3 {
+  font-family: "SFProDisplay-Semibold";
+  font-size: -webkit-calc(1vw + 4px);
+  font-size: calc(1vw + 4px);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .blk-videos .inner .item {
+    width: 100%;
+    margin: 0 0 4em;
+  }
+  .blk-videos .inner .item:last-child {
+    margin: 0 0 0em;
+  }
+  .blk-videos .inner .item .text h3 {
+    font-size: -webkit-calc(1.8vw + 4px);
+    font-size: calc(1.8vw + 4px);
+  }
+}
+
+.page-tutorial .news-detail {
+  padding: 0 0 2vw;
+  margin: 0;
+}
+.page-tutorial .news-detail .title {
+  margin: 0 0 2vw;
+}

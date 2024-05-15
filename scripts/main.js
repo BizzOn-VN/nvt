@@ -246,13 +246,9 @@ function counter(event) {
 
 }
 
-// $("#popup-success").fancybox({
-//    clickSlide: true, // disable close on outside click
-//     touch: true, // disable close on swipe
-//      clickContent    : true,
-
-
-// }).trigger('click');
+// $("#popup-bao-gia").fancybox({
+  
+// })
 // jQuery.fancybox.defaults.touch = true;
 // $("#popup-success").on("show", function () {
 //   $("body").addClass("modal-open");
