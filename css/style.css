@@ -1558,6 +1558,11 @@ input[type=submit] {
 .meta-footer ul li {
   margin: 0 0 0.7vw;
 }
+.meta-footer ul li a {
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
 .meta-footer ul.info {
   margin: 0 0 4vw;
 }
@@ -5694,4 +5699,83 @@ body.modal-open {
 
 .popup-bao-gia {
   display: none;
+  width: 50%;
+  padding: 1em 1.5em;
+  border-radius: 0.9em;
+}
+.popup-bao-gia .top-meta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+      -ms-flex-align: end;
+          align-items: end;
+  border-bottom: 1px solid #DFDFDF;
+  padding: 0 0 0.5em;
+}
+.popup-bao-gia .top-meta p {
+  margin: 0 0 0.3em;
+}
+.popup-bao-gia .list {
+  padding: 1em 0 0;
+}
+.popup-bao-gia .list .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #DFDFDF;
+  padding: 0 0 1em;
+}
+.popup-bao-gia .list .item .fl-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.popup-bao-gia .list .item .fl-left .avatar {
+  width: 6em;
+}
+.popup-bao-gia .list .item .fl-left .avatar img {
+  width: 100%;
+}
+.popup-bao-gia .list .item .fl-left .text {
+  padding: 0 0 0 0.8em;
+}
+.popup-bao-gia .list .item .fl-left .text strong {
+  display: block;
+  text-transform: uppercase;
+}
+.popup-bao-gia .list .item .fl-left .text span {
+  display: block;
+}
+.popup-bao-gia .list .item .fl-right .inner-right {
+  background: #FFE9E9;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+}
+.popup-bao-gia .list .item .fl-right .inner-right strong {
+  display: block;
+}
+.popup-bao-gia .list .item .fl-right .inner-right span {
+  display: block;
+}
+.popup-bao-gia .smd-button a {
+  text-transform: lowercase;
+}
+@media screen and (max-width: 768px) {
+  .popup-bao-gia {
+    width: 100%;
+  }
 }
